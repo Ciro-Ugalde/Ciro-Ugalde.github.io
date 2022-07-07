@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
 </head>
 
 <body>
-    
+
     <header>
         <img src="/img/contact.png" alt="">
         <h1>Contact</h1>
@@ -25,11 +26,23 @@
         </ul>
 
     </nav>
-    
+
     <main>
         <h2>Contact me</h2>
-
-
+        <form action="mailto:ciro.daniel.ugalde@gmail.com?subject=Personal contact"></form>
+       <b><label for="nome"> Nome: </label></b>
+        <input type="text" name="nome" id="nome" placeholder="Insira seu nome" required>
+        <br />
+        <b><label for="telefone"> Telefone: </label></b>
+        <input type="tel" telefone="telefone" id="telefone" placeholder="Insira seu telefone" required>
+        <br />
+        <label for="assunto"> Assunto: </label>
+        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+        <br />
+        <input type="reset" value="Limpar" style="background-color: rgb(226, 224, 224); border-radius: 3px; padding: 2px;">
+        <input type="submit" value="Enviar" style="background-color: rgb(243, 194, 194); border-radius: 3px;">
+        <hr>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=ciro.daniel.ugalde@gmail.com&su=Contato+-+via+site+pessoal&body=Ol%C3%A1+Ciro+Tudo+bem?&tf=cm"> Prefere gmail?</a>
     </main>
 
     <footer>
@@ -37,4 +50,5 @@
     </footer>
 
 </body>
+
 </html>

@@ -1,0 +1,70 @@
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    width: 100vw;
+    background: url('/images/62e543ffd4cba.png');
+    background-size: cover;
+    margin: auto;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 5.5rem;
+}
+
+.hero_desc {
+    font-size: 5rem;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: rgb(167, 166, 166);
+    
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.imgGif {
+    width: 110%;
+    height: 90%;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(137, 135, 135);
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+    color: #060606;
+}
+
+.fab {
+    color: #0331fe;
+}
+
+/* footer styling */
+#footer {
+    background-color: #faf9f9;
+    text-align: center;
+}
+
+footer::after{
+    content: "© Copyright ciro-ugalde.github.io - Todos os direitos reservados.";
+}

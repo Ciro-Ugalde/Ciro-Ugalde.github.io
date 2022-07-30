@@ -6,4 +6,4 @@ HTML, CSS, JavaScript and Bootstrap Portfolio Website
 * [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 * [google map](https://www.embed-map.com/)
 
-This is the [live demo](/images/site.gif) of the project . 
+ [Demo do projeto](/images/site.gif). 
